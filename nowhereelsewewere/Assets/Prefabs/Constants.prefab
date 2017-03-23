@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000012244052008}
+  m_IsPrefabParent: 1
+--- !u!1 &1000012244052008
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000013205485082}
+  - 114: {fileID: 114000012862341362}
+  m_Layer: 0
+  m_Name: Constants
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000013205485082
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012244052008}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114000012862341362
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012244052008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36160e195b6c7954d8588ad96c98d1fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inMoveRangeColor: {r: 0.084342584, g: 0.30673537, b: 0.9558824, a: 0.5882353}
+  notSelectedColor: {r: 0.20588237, g: 0.6713994, b: 1, a: 0.291}
+  selectedColor: {r: 0.9632353, g: 0.9632353, b: 0.9632353, a: 1}
+  inPathColor: {r: 0.9705882, g: 0.09991347, b: 0.9465698, a: 0.5882353}
+  inAttackRangeColor: {r: 1, g: 0.4066937, b: 0.1397059, a: 0.5882353}
+  attackingColor: {r: 1, g: 0, b: 0, a: 0.5882353}
+  playerPhaseGameMusic: {fileID: 8300000, guid: 84a7dbac652266f41aa443748b7698a4,
+    type: 3}
+  enemyMusic: {fileID: 8300000, guid: 2b02ed585875f564e9f12ba9249d0b5d, type: 3}
+  combatMusic: {fileID: 8300000, guid: 6ff225684c5185643a194fa4f1601283, type: 3}
+  rainForestSounds: {fileID: 8300000, guid: 5c9c26df4300dd947895ee773f3d5758, type: 3}
+  damageSound: {fileID: 8300000, guid: 20b364b410ddbd34abe32883f53ba046, type: 3}
+  blockSound: {fileID: 8300000, guid: ab53c4cde46bfeb45a366db1afd9564b, type: 3}
+  heavyDamageSound: {fileID: 8300000, guid: 64190f770f741374b9d8929cc1ffc973, type: 3}
+  dodgeSound: {fileID: 8300000, guid: fe5955eacb5e0a440be8689148be20e0, type: 3}
+  UISoftPlasticClick: {fileID: 8300000, guid: 1d7f9954a26e99543bbb2482c9042e02, type: 3}
+  UIVintageHardClick: {fileID: 8300000, guid: 1d379c971c23ffa4e85256eb513c68cd, type: 3}
+  silence: {fileID: 8300000, guid: 4c925e4c921fa9a42ab886cc95e6410b, type: 3}
+  LumiusActivated: {fileID: 8300000, guid: 2436ab0cf4635b840ae5f084ed1100b8, type: 3}
+  ErrorSound: {fileID: 8300000, guid: 97e66d9912fde0441bfecb34bbe75411, type: 3}
+  VictorySound: {fileID: 8300000, guid: 49c7b9b283933cd4aa769b0770a37069, type: 3}
+  DefeatSound: {fileID: 8300000, guid: 861d363e9fc6493468e2c683212db915, type: 3}
+  HighHealthColor: {r: 0.111860104, g: 0.88235295, b: 0.08434254, a: 1}
+  MedHealthColor: {r: 0.8357095, g: 0.9044118, b: 0.19285254, a: 1}
+  LowHealthColor: {r: 0.9191176, g: 0.1738493, b: 0.08785681, a: 1}
+  hoverSpriteColor: {r: 0.8661258, g: 1, b: 0.029411793, a: 1}
+  selectionSpriteColor: {r: 0, g: 1, b: 0.25517225, a: 1}
+  MIGHT: MIGHT
+  MAGIC: MAGIC
+  SKILL: SKILL
+  SPEED: SPD
+  DEF: DEF
+  RESIST: RESIST
+  LUCK: LUCK
+  MOVE: MOVE
+  HP: HP
+  DODGE: DODGE
+  NAME: NAME
+  DAMAGE: DMG
+  RANGE: RNG
+  CRIT: CRIT
+  HIT: HIT
+  equippedBackgroundColor: {r: 0.47869515, g: 0.52205884, b: 0.0729347, a: 0.803}
+  notEquippedBackgroundColor: {r: 0.1102941, g: 0.1102941, b: 0.1102941, a: 1}
+  enemyHealthColor: {r: 0.997, g: 0, b: 0, a: 1}
+  playerHealthColor: {r: 0.16057524, g: 0.23517457, b: 0.99264705, a: 1}
+  damageColor: {r: 1, g: 0.6, b: 0, a: 1}
+  hitColor: {r: 1, g: 0.92941177, b: 0, a: 1}
+  dodgeColor: {r: 0.7372549, g: 0, b: 1, a: 1}
+  damagerReduceColor: {r: 0, g: 0.54509807, b: 1, a: 1}
+  moveColor: {r: 0.15686275, g: 1, b: 0, a: 1}
+  enemyTeamColor: {r: 1, g: 0.007352948, b: 0.007352948, a: 0.997}
+  allyTeamColor: {r: 0.04346884, g: 0.28379652, b: 0.9852941, a: 1}
